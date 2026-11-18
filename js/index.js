@@ -1,19 +1,35 @@
 const skills = [
-  "Unreal Engine", "Unity", "Blueprints", "Level design",
-  "Systems design", "Prototyping", "Playtesting"
+  "Unreal Engine", "Unity", "Blender", "Photoshop", "Production", "UI Design", "Systems design", "Level design",
+  "Prototyping", "Playtesting"
 ];
 
 const games = [
+    {
+    title: "Summoned",
+    role: "Academic Group Project · 2025",
+    background: "games/Summoned/images/main_menu.png",
+    description: "Summoned is a two-player couch co-op where you play as Cedric and Hypatia, two outcast alchemists living in their laboratory on the outskirts of a village. However, when the local villagers discover their experiments, they light their torches and sharpen their pitchforks to put this forbidden witchcraft in the grave. The players must quickly gather the ingredients, and test untouched recipes to summon minions and protect your lab.",
+    technologies: "Unreal Engine 5",
+    skills: "Project Manager, Scrum Master, Game Designer",
+    detailUrl: "https://luvsomsg.itch.io/summoned",
+    gallery: [
+      "games/Summoned/images/main_menu.png",
+      "https://img.itch.zone/aW1hZ2UvMzk0NDI5Ny8yMzcyODc1Ni5wbmc=/347x500/6jgcEb.png",
+      "https://img.itch.zone/aW1hZ2UvMzk0NDI5Ny8yNDM5MjMzMy5wbmc=/347x500/XyKoGY.png",
+      "https://img.itch.zone/aW1hZ2UvMzk0NDI5Ny8yNDQwNzQzNy5wbmc=/347x500/69TG7O.png"
+    ]
+  },
   {
     title: "Disconnect 4",
     role: "Group project · 2026",
-    background: "games/Disconnect 4/images/main_menu.png",
-    description: "description",
+    background: "games/Disconnect 4/images/gameplay_screenshot.png",
+    description: "A twisted version of the classic Connect 4, play against the Jester's distorted rules... Beginning as my university final major project, I successfully recieved a grant enabling me to develop the project into a digital game. Altering an existing game exposed me to the huge amount of playtesting, balancing and sytem complexity involved in a well-designed game. Working with only a single programmer (Thomas Jebson) compared to a team has given me a much more closer insight on how to communicate design ideas effectively across disciplines.",
     technologies: "Unity 6, C#, Blender 3D, Miro, GitHub, Affinity",
     skills: "Project Manager, Lead Designer, Assistant Programmer",
     detailUrl: "",
     gallery: [
-      "games/Disconnect 4/images/main_menu.png"
+      "games/Disconnect 4/images/main_menu.png",
+      "games/Disconnect 4/images/gameplay_screenshot.png"
     ]
   },
   {
@@ -32,21 +48,7 @@ const games = [
       "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5362870/84588416395033242c401319c0cf4093c51b0850/ss_84588416395033242c401319c0cf4093c51b0850.1920x1080.jpg?t=1794760129"
     ]
   },
-  {
-    title: "Summoned",
-    role: "Academic Group Project · 2025",
-    background: "games/Summoned/images/main_menu.png",
-    description: "Summoned is a two-player couch co-op where you play as Cedric and Hypatia, two outcast alchemists living in their laboratory on the outskirts of a village. However, when the local villagers discover their experiments, they light their torches and sharpen their pitchforks to put this forbidden witchcraft in the grave. The players must quickly gather the ingredients, and test untouched recipes to summon minions and protect your lab.",
-    technologies: "Unreal Engine 5",
-    skills: "Project Manager, Scrum Master, Game Designer",
-    detailUrl: "https://luvsomsg.itch.io/summoned",
-    gallery: [
-      "games/Summoned/images/main_menu.png",
-      "https://img.itch.zone/aW1hZ2UvMzk0NDI5Ny8yMzcyODc1Ni5wbmc=/347x500/6jgcEb.png",
-      "https://img.itch.zone/aW1hZ2UvMzk0NDI5Ny8yNDM5MjMzMy5wbmc=/347x500/XyKoGY.png",
-      "https://img.itch.zone/aW1hZ2UvMzk0NDI5Ny8yNDQwNzQzNy5wbmc=/347x500/69TG7O.png"
-    ]
-  },
+
   {
     title: "Crash Planted",
     role: "Academic Group Project · 2025",
