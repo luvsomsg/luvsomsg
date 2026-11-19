@@ -204,27 +204,48 @@
   color: var(--ink) !important;
   font-size: 1.12rem !important;
 }
-.skills-block {
+
+.keyword-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.skills-block,
+.technologies-block {
+  flex: 1;
+}
+
+.skills-block,
+.technologies-block {
   margin-top: 1.8rem;
 }
-.skills-block h3 {
+.skills-block h3,
+.technologies-block h3 {
   margin: 0 0 0.75rem;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
-.skill-list {
+.skill-list,
+.technologies-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
 }
-.skill-tag {
+.skill-tag,
+.technologies-tag {
   padding: 0.42rem 0.75rem;
   border: 1px solid rgba(241, 138, 184, 0.36);
   border-radius: 2rem;
   background: rgba(241, 138, 184, 0.08);
   color: #f2dce7;
   font-size: 0.72rem;
+}
+
+@media (max-width: 768px) {
+  .keyword-container {
+    flex-direction: column;
+  }
 }
 
 .section-heading {
@@ -305,6 +326,19 @@
   color: #e0d9df;
   font-size: 0.95rem;
 }
+
+.game-description a {
+  color: var(--pink-bright);
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-underline-offset: 4px;
+  transition: color 0.2s ease;
+}
+
+.game-description a:hover {
+  color: white;
+}
+
 .game-meta {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

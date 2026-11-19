@@ -1,0 +1,46 @@
+Hello!
+
+Here are some useful pointers to help you with your portfolio website!
+
+First lets start with a brief outline.
+* HTML is the structure
+* CSS is the style
+* JS is all the additional functionality we want from our web page. It's very different to any programming langauge you have seen so far.
+
+This website has been designed with maintainability for you in mind, so I've use a script called 'index.js' to try and isolate the content in
+the web-page you will want to edit - so the game specific details for example.
+
+Each bit of content/text we want in our web-site in the 'index.js' section must be between double commas. "like this"
+
+However, this also means we can absolutely use HTML in our 'index.js' to customise how that text appears. Below are some useful HTML tips:
+
+
+In HTML, we have commands, encased in chevrons. So <this is a command>. We end a command with a slash at the start. For example:
+<command></command>
+
+We can do paragraphs with:
+<p> this is my paragraph </p?
+
+We can do bold text with:
+<b> bold text </b>
+
+We can do italic text with:
+<i> italic </i>
+
+
+We sometimes don't need to use both the open and close commands. This rule is odd and the only time I've seen it is with the line end command. So:
+</br> can be used to end a line and start a new one. We can of course do </br></br> so two together to start a new paragraph too.
+
+
+We can also do cool things like this:
+<a href="URL" target="_blank" rel="noreferrer">Text content</a>
+
+Where the 'a' command is used to add a link to our website.
+href="URL"    - It can be to another page in the site, or another website completely, or even to a file,
+like for example including a copy of your CV or a link to your email.
+
+target="_blank"      - can be used to open the link in a new tab (always handy)
+
+rel="noreferrer"       - Prevents the website you are going from, from knowing where you came from. Otherwise it can be used for tracking. This isn't a super big issue here fortunately.
+
+Text content        - This is what the user sees in the website to click.

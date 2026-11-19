@@ -1,6 +1,10 @@
 const skills = [
-  "Unreal Engine", "Unity", "Blender", "Photoshop", "Production", "UI Design", "Systems design", "Level design",
+  "Production", "UI Design", "Systems design", "Level design",
   "Prototyping", "Playtesting"
+];
+
+const technologies = [
+  "Unreal Engine", "Unity", "Blender", "Photoshop"
 ];
 
 const games = [
@@ -23,7 +27,7 @@ const games = [
     title: "Disconnect 4",
     role: "Group project · 2026",
     background: "games/Disconnect 4/images/gameplay_screenshot.png",
-    description: "A twisted version of the classic Connect 4, play against the Jester's distorted rules... Beginning as my university final major project, I successfully recieved a grant enabling me to develop the project into a digital game. Altering an existing game exposed me to the huge amount of playtesting, balancing and sytem complexity involved in a well-designed game. Working with only a single programmer (Thomas Jebson) compared to a team has given me a much more closer insight on how to communicate design ideas effectively across disciplines.",
+    description: "A twisted version of the classic Connect 4, play against the Jester's distorted rules... </br></br>Beginning as my university final major project, I successfully recieved a grant enabling me to develop the project into a digital game. Altering an existing game exposed me to the huge amount of playtesting, balancing and sytem complexity involved in a well-designed game. Working with only a single programmer <a href='https://pycraftdeveloper.github.io/PycraftDeveloper/' target='_blank' rel='noreferrer'>(Thomas Jebson)</a> compared to a team has given me a much more closer insight on how to communicate design ideas effectively across disciplines.",
     technologies: "Unity 6, C#, Blender 3D, Miro, GitHub, Affinity",
     skills: "Project Manager, Lead Designer, Assistant Programmer",
     detailUrl: "",
@@ -69,6 +73,7 @@ const games = [
 ];
 
 const skillContainer = document.querySelector("#about-skills");
+const techContainer = document.querySelector("#about-technologies");
 const gameContainer = document.querySelector("#game-sections");
 
 skills.forEach((skill) => {
@@ -76,6 +81,13 @@ skills.forEach((skill) => {
   tag.className = "skill-tag";
   tag.textContent = skill;
   skillContainer.append(tag);
+});
+
+technologies.forEach((tech) => {
+  const tag = document.createElement("span");
+  tag.className = "technologies-tag";
+  tag.textContent = tech;
+  techContainer.append(tag);
 });
 
 games.forEach((game, index) => {

@@ -11,16 +11,8 @@
   --content-width: 1200px;
   --gutter: clamp(1.25rem, 5vw, 4.5rem);
   --font-body: "DM Sans", system-ui, sans-serif;
-  --font-display: "Chewy", cursive;
+  --font-display: "DM Sans", system-ui, sans-serif;
   --ease: cubic-bezier(0.2, 0.75, 0.25, 1);
-}
-
-@font-face {
-  font-family: "Chewy";
-  src: url("../fonts/Chewy-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 * {
@@ -111,6 +103,7 @@ a {
   text-align: center;
   margin: 0;
   font: 500 clamp(4.2rem, 10vw, 8.5rem)/0.88 var(--font-display);
+  letter-spacing: -0.1em;
 }
 
 .signature span,
