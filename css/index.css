@@ -304,11 +304,14 @@
     rgba(12, 10, 15, 0.15)
   );
 }
+
 .game-section__content {
   width: min(var(--content-width), calc(100% - var(--gutter) * 2));
+  min-width: 0;
   margin: 0 auto;
   padding-block: 7rem 2.2rem;
 }
+
 .game-number {
   color: var(--pink-bright);
   font-size: 0.72rem;
@@ -321,6 +324,7 @@
   letter-spacing: -0.06em;
   line-height: 0.98;
 }
+
 .game-description {
   max-width: 48rem;
   color: #e0d9df;
